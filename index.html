@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <link href="./css/calculadora.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/af368442cf.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <CEnter><h1>CALCULADORA</h1></CEnter>
+    <div class="container">
+        <div class="calculadora">
+            <div class="display">
+                <div id="valor-anterior"></div>
+                <div id="valor-actual"></div>
+            </div>
+            <button class="col-2" onclick="display.borrarTodo()">C</button>
+            <button onclick="display.borrar()">&larr;</button>
+            <button class="operador" value="dividir">%</button>
+            <button class="numero">7</button>
+            <button class="numero">8</button>
+            <button class="numero">9</button>
+            <button class="operador" value="multiplicar">X</button>
+            <button class="numero">4</button>
+            <button class="numero">5</button>
+            <button class="numero">6</button>
+            <button class="operador" value="restar">-</button>
+            <button class="numero">1</button>
+            <button class="numero">2</button>
+            <button class="numero">3</button>
+            <button class="operador" value="sumar">+</button>
+            <button class="col-2 numero">0</button>
+            <button class="numero">.</button>
+            <button class="operador" value="igual">=</button>
+        </div>
+    </div>
+
+    <script src="./js/calculadora.js" type="text/javascript"></script>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="">
+                        <img src="https://www.centroestudioscervantinos.es/wp-content/uploads/2022/02/ley-de-los-signos-con-ejemplos-suma-resta-multiplicacion-y-division-1-istock.jpg" alt="logo"></a>
+                </figure>
+            </div>
+        
+
+        <div class="box">
+            <h2>Página creada por:</h2>
+            <p>Deyanira Yamile Vera Mancilla</p>
+            <p>Luis Eduardo Acevedo Ubaldo</p>
+        </div>
+
+        <div class="box">
+        <h2>SIGUENOS:</h2>
+            <div class="red-social">
+                <a href="https://es-la.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/accounts/login/?next=%2Fcarostudio.co%2F" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/?lang=es" class="fa fa-twitter"></a>
+                <a href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
